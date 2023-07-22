@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import { Login } from './Login';
+import Register from './Register';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <p>Hello I am Khajavali</p>
-      </header>
-    </div>
+     <Login />
+     <Register />
+     </div>
   );
 }
 
